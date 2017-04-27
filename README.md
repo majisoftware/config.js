@@ -1,5 +1,7 @@
 # @maji/config.js
 
+[![CircleCI](https://circleci.com/gh/majisoftware/config.js.svg?style=svg)](https://circleci.com/gh/majisoftware/config.js)
+
 > The JavaScript solution for dynamic configuration by [Maji](https://maji.cloud/).
 
 Make sure you have a [Maji Config](https://maji.cloud/products/config) account.
