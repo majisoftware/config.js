@@ -2,6 +2,8 @@
 
 > The JavaScript solution for dynamic configuration by [Maji](https://maji.cloud/).
 
+Make sure you have a [Maji Config](https://maji.cloud/products/config) account.
+
 ## Usage
 
 First, install the package. We recommend using [Yarn](https://yarnpkg.com/):
