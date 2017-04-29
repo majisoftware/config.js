@@ -4,49 +4,16 @@
 
 > The JavaScript solution for dynamic configuration by [Maji](https://maji.cloud/).
 
-Make sure you have a [Maji Config](https://maji.cloud/products/config) account.
+Config.js makes dynamic configuration in JavaScript super easy. Sign up for a [Maji Config](https://maji.cloud/products/config) account to get started.
 
-## Usage
+## Documentation
 
-First, install the package. We recommend using [Yarn](https://yarnpkg.com/):
+Check out the Maji Config getting started [documentation](https://maji.cloud/docs/config), which explains how to install config.js and how to use it.
 
-```
-$ yarn add @maji/config.js
-```
+## Examples
 
-Next, create your config instance with your API key:
+Check out the `examples` directory to learn how to use config.js in a React app and an Express app.
 
-```js
-import MajiConfig from '@maji/config.js'
+## License
 
-const config = new MajiConfig({
-  apiKey: 'YOUR API KEY'
-})
-```
-
-Once you've created your config instance, it needs to fetch its initial data. This operation is required to be run before you attempt to retrieve any config values.
-
-```js
-config.prepare().then(() => {
-  // start your application
-}).catch(err => {
-  // handle the exception
-})
-```
-
-## Example
-
-A simple example of bootstrapping Maji Config with a React application.
-
-```js
-import React from 'react'
-import ReactDOM from 'react-dom'
-import MajiConfig from '@maji/config.js'
-import App from './components/App'
-import ErrorPage from './components/ErrorPage'
-
-const config = new MajiConfig({ apiKey: 'XXX' })
-config.prepare().then(() => {
-  ReactDOM.render(<App config={config} />, document.getElementById('root'))
-})
-```
+MIT
