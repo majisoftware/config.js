@@ -1,6 +1,6 @@
 {
   "name": "@maji/config.js",
-  "version": "0.0.0-rc1",
+  "version": "1.0.0",
   "main": "src/Config.js",
   "browser": "lib/Config.js",
   "scripts": {
