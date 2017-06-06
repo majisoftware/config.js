@@ -3,7 +3,7 @@ import nock from 'nock'
 import delay from 'delay'
 import Config from './Config'
 
-const MOCK_HOST = 'https://api.config.maji.cloud'
+const MOCK_HOST = 'https://us-central1-config-app-f04da.cloudfunctions.net'
 const ABSURDLY_LONG_WAIT = 1000000
 
 let consoleError

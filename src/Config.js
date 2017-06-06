@@ -6,7 +6,7 @@ const { EventEmitter } = require('events')
 const Store = require('./Store')
 
 class Config extends EventEmitter {
-  constructor ({ apiKey, host = 'https://api.config.maji.cloud/', wait = 5000, onError, storageKey = '__maji_config' }) {
+  constructor ({ apiKey, host = 'https://us-central1-config-app-f04da.cloudfunctions.net', wait = 5000, onError, storageKey = '__maji_config' }) {
     super()
     assert(apiKey, 'apiKey required')
     this.isReady = false
