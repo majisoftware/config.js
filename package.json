@@ -1,8 +1,7 @@
 {
   "name": "@maji/config.js",
   "version": "1.0.0",
-  "main": "src/Config.js",
-  "browser": "lib/Config.js",
+  "main": "lib/Config.js",
   "scripts": {
     "lint": "standard",
     "test": "ava",
